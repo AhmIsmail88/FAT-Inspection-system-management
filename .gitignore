@@ -1,0 +1,58 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── PyInstaller ───────────────────────────────────────────
+# fat_system.spec is KEPT (it's part of the source code)
+build/
+dist/
+
+# ── Database files ────────────────────────────────────────
+*.db
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ── User config & sensitive data ──────────────────────────
+# config.json contains the user-defined DB path
+config.json
+
+# ── User data folders ─────────────────────────────────────
+data/
+attachments/
+backups/
+
+# ── Installer output ──────────────────────────────────────
+installer/*.exe
+
+# ── Virtual environments ──────────────────────────────────
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+.env
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+
+# ── OS generated ──────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
